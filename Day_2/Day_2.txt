@@ -1,3 +1,30 @@
+
+Tokens:Token is a small unit of the code
+
+Tokens contains 
+1.identifer
+2.operator
+3.literal
+4.keywords
+5.punctuations
+
+1.Identifier: Identifier is name assign to the variable or function 
+rules:
+1.contains uppercase lowercase digits _
+2.no special char
+3.Identifers not start with digits and 
+4.keywords are not allowed as Identifers
+5.it is a case sensitive language 
+
+2.operators:operator or nothing performing a mathematical operation on the values
+
+3.literals:literals are nothing but values
+
+4.keywords:keywords are predefined words or reserved words
+
+5.punctuation:are used in indentation
+
+
 Tokens:Token is a small unit of the code
 
 Tokens contains 
