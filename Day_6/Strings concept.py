@@ -28,6 +28,7 @@ print(name.upper())
 print(name.lower())
 print(name.capitalize())
 print(name.title())
+
 #align methods
 name="narayana"
 print(name.center(20,'-'))
@@ -38,7 +39,7 @@ print('67'.zfill(3))
 
 s="python programmming"
 print(s.find('python'))
-print(s.find(' programming'))
+print(s.find('programming'))
 print(s.find('r'))
 print(s.rfind('r'))
 print(s.index("p"))
@@ -48,11 +49,75 @@ print(s.replace('p','$'))
 print(s.replace('programming','language'))
 print(s.maketrans('aeiou','!@#$%'))
 print(s.translate({97: 33, 101: 64, 105: 35, 111: 36, 117: 37}))
-"""
+
 a="nothing 😊"
 
 print(a.encode())
 print(a.decode(b'nothing \xf0\x9f\x98\x8a'))
+
+s=' narayana thota'
+print(s.strip())
+print(s.lstrip())
+n=' narayana thota '
+print(n.rstrip())
+print(s.replace(' ',''))
+
+n='om-sada-siva-venkata-narayana'
+print(n.split('-'))
+print(n.split('-',1))
+print(n.rsplit('-',))
+print(n.rsplit('-',2))
+
+n='om\nsada-siva-venkata-narayana'
+print(n)
+print(n.splitlines())
+
+lst=["om","sada","siva","venkata","narayana"]
+print(''.join(lst))
+print(' '.join(lst))
+print('--'.join(lst))
+tup=("om","sada","siva","venkata","narayana")
+print('--'.join(tup))
+s={"om","sada","siva","venkata","narayana"}
+print('--'.join(s))
+
+p='working.on.strings'
+print(p.partition('.'))
+print(p.rpartition('.'))
+
+#testing methods
+a='narayanathota'
+print(a.startswith('n'))
+print(a.startswith('a'))
+print(a.endswith('thota'))
+print(a.endswith(a[::-1]))
+"""
+n="narayanathota23"
+m=' ' 
+print(n.isalnum())
+print(n.islower())
+print(n.isupper())
+print(m.isspace())
+print(n.istitle())
+print(n.isidentifier())
+'2554656'.isdecimal()
+'5656#'.isdecimal()
+'5656#'.isnumeric()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
