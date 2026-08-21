@@ -123,7 +123,7 @@ for i in range(5):
         print("invalid pin")
 else:
     print("try after 30 seconds")
-'''
+
 n=14
 for i in range(2,n//2+1):
     if n%i==0:
@@ -131,6 +131,14 @@ for i in range(2,n//2+1):
         break
 else:
     print("prime number")
+    '''
+n=int(input("enter a number"))
+lst=[]
+for i in range(1,n):
+    if n%i==0:
+        lst.append(i)
+print(f"factors of the {n}:{lst}")
+
 
     
 
