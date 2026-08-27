@@ -1,0 +1,24 @@
+what is function 
+function is a self block of code which is used to perform a sepcific task repetadely 
+->using the def keyword we can create the function 
+
+andvantages of the function
+->code reusability
+->reduce the memory usage
+->makes debugging easy when to debug
+->code optimization
+->we can define the local variables and global variables
+->it supports flexible arguments and parameters passing
+->we can pass one function as the argument to the another function
+->less code 
+->using we can split the work in big projects
+
+syntax for to create function 
+def function_name(arguments):
+    #stmnts
+    return (optional)
+function_name(parameters)
+
+
+
+
