@@ -1,0 +1,8 @@
+recursion is nothing but a function call itself again and again unitl the base condition becmoes true
+syntax:
+def fun_name(arguments):
+    base condition:
+        return
+    print()
+    fun_name(function update)
+fun_name(parameters)
