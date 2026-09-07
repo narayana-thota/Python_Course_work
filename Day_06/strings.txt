@@ -1,3 +1,4 @@
+#s
 string:
 string is a collection of characters
 
