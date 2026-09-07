@@ -1,0 +1,47 @@
+object oritentated programming(oop)
+
+1.class:
+        class is a blueprint it consists the methods and attributes
+
+2.object:
+        object is a instance of the class 
+
+key concepts in the oop:
+
+1.Inheritence:
+            Inheritence is nothing but extracting parent class methods from the child class is called inheritence 
+Types of the Inheritence:
+->single Inheritence
+->multi Inheritence
+->multilevel Inheritence
+->hybrid Inheritence
+->hierachal Inheritence
+
+2.Polymorphism:
+            polymorphism is nothing but many methods in different forms means the same method can act as different based on the instance of the object
+Types of Polymorphism:
+->runtime Polymorphism: method overriding
+->compiletime Polymorphism: method overloading
+->operator overloading
+
+3.Enacapsulation:
+                Encapsulation is nothing binding the data in to single unit and providing the security to the data is called Encapsulation
+
+4.Abstraction:
+                Abstraction is nothing hidding the internal details and showing the essential features is called abstraction
+
+class variable:
+            the variables created by using the class is called class variable
+Instance Variable:
+                the varibles created by using the obj is called instance variable
+
+There are Three Types of method in the oop:
+->class method:
+            to create a class we have to use decorator called @classmethod it created by using class
+->instance method:
+            the method created by using the instance of the class means object
+->static method:
+            it is method created statistically we create using the decorator @static method
+
+
+
